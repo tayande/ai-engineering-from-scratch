@@ -48,7 +48,7 @@ print(dot([2, 3], [4, 1]))
 print(dot([1, 1], [-1, -1]))
 
 """
-cosine similarity = dot product / mag(a) * mag(b)
+cosine similarity = dot product / (mag(a) * mag(b))
 
 """
 def cosine_similarity(a: list, b: list):
